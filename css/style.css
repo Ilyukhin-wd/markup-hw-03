@@ -1,4 +1,11 @@
-  *{
+ :root{
+    --primary-background-color:var(--#ffffff);
+    --secondary-background-color:var(--#2e2f42);
+    --primary-text-color:var(--#434455);
+    --secondary-text-color:var(--#2E2F42);
+ }
+ 
+ *{
     margin:0;
   }
 
@@ -24,10 +31,20 @@ a{
     text-decoration: none;
 }
 
-ul,ol{
+ul,
+ol {
     list-style: none;
     margin: 0;
     padding-left: 0;
+}
+
+.container-hero .container{
+    max-width:;
+    padding-left:; 
+    padding-right:; 
+    margin-left: ;
+    margin-right:;
+        
 }
 
 .header-logo-link,
