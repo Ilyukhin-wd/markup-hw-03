@@ -1,3 +1,7 @@
+  *{
+    margin:0;
+  }
+
   body{
     font-family: "Roboto",sans-serif;
     font-weight: 400;
@@ -8,12 +12,22 @@
     line-height: 1.5;
 }
 
+h1,h2,h3,p{
+    margin: 0;
+}
+
+img{
+    display: block;
+}
+
 a{
     text-decoration: none;
 }
 
 ul,ol{
     list-style: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 .header-logo-link,
@@ -54,7 +68,7 @@ span{
     color: #404bbf;
 }
 
-.hero{
+.container-hero{
     background-color: #2e2f42;
     color: #ffffff ;
 }
@@ -102,7 +116,7 @@ h3{
     background-color: #f4f4fd;
 }
 
-.section-title{
+.our-team-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
@@ -110,7 +124,7 @@ h3{
     color: #434455;
 }
 
-.team-item{
+.our-team-item{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
