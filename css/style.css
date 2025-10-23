@@ -56,11 +56,11 @@ span{
     color: #4d5ae5;
 }
 
-.header-nav a{
+.header-nav-list a{
     color: #2e2f42;
 }
-.header-nav a:hover,
-.header-nav a:focus{
+.header-nav-list a:hover,
+.header-nav-list a:focus{
     color: #404bbf;
 }
 
