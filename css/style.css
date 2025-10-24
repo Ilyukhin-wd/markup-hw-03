@@ -12,9 +12,10 @@
     --white: #fff;
     --dairy: #fcfcfc;
 }
- *{
-    margin: 0;
- }
+*{
+    border: 1px solid tomato;
+   
+}
   body{
     font-family: "Roboto",sans-serif;
     font-weight: 400;
@@ -36,14 +37,16 @@ a{
 ul,
 ol {
     list-style: none;
-    margin: 0;
     padding-left: 0;
+    margin: 0;
 }
 
-.container.container-hero{
+.container{
     width: 1148px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-logo-link,
@@ -84,7 +87,8 @@ span{
     color: var(--ocean);
 }
 
-.container-hero{
+.hero{
+    text-align: center;
     background-color: var(--navy-blue);
     color: var(--white);
 }
@@ -94,11 +98,15 @@ h1{
     font-size: 56px;
     line-height: 1.07143;
     letter-spacing: 0.02em;
-    text-align: center;
-        
+    margin-top: 0;
+    margin-bottom: 48px;      
 }
 
 button{
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 69px;
+ 
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
     font-weight: 500;
@@ -122,6 +130,14 @@ h3{
     font-size: 20px;
     line-height: 1.2;
     color: var(--navy-blue);
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.features-desc{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .our-team{
@@ -132,8 +148,9 @@ h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
-    text-align: center;
     color: var(--navy-blue);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .our-team-item{
@@ -142,8 +159,12 @@ h2{
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px;
     width: 264px;
-    height: 380px;
     text-align: center;
+    padding-bottom: 0;
+}
+
+img{
+    margin-bottom: 32px;
 }
 
 .name{
@@ -153,9 +174,31 @@ h2{
     color: var(--navy-blue);
 }
 
+.our-team-item .name{
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+   
+.our-team-item p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .portfolio-item{
     width: 360px;
-    height: 420px;
+}
+
+
+
+.portfolio-item .name{
+    margin-top: 0;
+    margin-bottom: 8px;
+
+}
+
+.portfolio-item p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 footer{
