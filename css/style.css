@@ -48,7 +48,8 @@ ol {
     margin: 0;
 }
 
-.container{
+.container,
+.footer-container{
     display: flex;
     max-width: 1158px;
     padding-left: 15px;
@@ -61,9 +62,9 @@ ol {
     display: flex;
 }
 
-.header-container{
-    display: flex;
-    align-items: center;
+.page-header{
+    max-width: 1440px;
+    border-bottom: 1px solid var(--cornflower);
 }
 
 .header-logo-link,
@@ -272,21 +273,25 @@ img{
 footer{
     padding-top: 100px;
     padding-bottom: 100px;
-    
+
     color: var(--cloud);
     background-color: var(--navy-blue);
 }
 
+.footer-container{
+    flex-direction: column;
+}
+
 .footer-logo-link{
-    display: block;
+    display: flex;
     margin-bottom: 16px;
     
     color: var(--cloud);
 }
 
-.footer-container>p{
+.footer-text{
+    display: flex;
     max-width: 264px;
     margin-top: 0;
     margin-bottom: 0;
-
 }
