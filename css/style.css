@@ -81,7 +81,7 @@ ol {
 }
    
 
-span{
+.second-color{
     color: var(--iris);
 }
 
@@ -144,6 +144,11 @@ h1{
     font-size: 56px;
     line-height: 1.07143;
     margin-bottom: 48px;      
+}
+
+.newline::before{
+    content: "\A";
+    white-space: pre;
 }
 
 button{
